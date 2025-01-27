@@ -1,9 +1,7 @@
 class Transaction {
-  String title;
-  double amount;
+  final String title;
+  final DateTime date;
+  final double amount;
 
-  Transaction({required this.title, required this.amount});
-
-  get date => null;
-  
+  Transaction({required this.title, required this.date, required this.amount});
 }

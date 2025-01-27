@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           vertical: 8, horizontal: 12),
                       child: ListTile(
                           title: Text(data.title),
-                          subtitle: Text('วันที่เพิ่มข้อมูล'),
+                          subtitle: Text(data.date.toString()),
                           leading: CircleAvatar(
                               child: FittedBox(
                             child: Text(data.amount.toString()),
